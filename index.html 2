@@ -1,0 +1,121 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>For Zari ❤️</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap');
+
+    :root {
+      --background: #10090d;
+      --rose: #e5a0b2;
+      --light: #fff5f1;
+      --muted: #c3aeb5;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Inter, Arial, sans-serif;
+      background:
+        radial-gradient(circle at 50% 5%, rgba(229,160,178,.16), transparent 34%),
+        linear-gradient(180deg, #10090d, #080609);
+      color: var(--light);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        radial-gradient(circle, rgba(255,255,255,.3) 1px, transparent 1px);
+      background-size: 75px 75px;
+      opacity: .08;
+    }
+
+    .container {
+      width: min(900px, 88%);
+      margin: auto;
+    }
+
+    section {
+      padding: 105px 0;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    .hero-content {
+      animation: fadeUp 1.4s ease;
+    }
+
+    .small-text {
+      font-size: .7rem;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: var(--rose);
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-family: "DM Serif Display", serif;
+      font-size: clamp(4rem, 13vw, 8rem);
+      line-height: .9;
+      letter-spacing: -2px;
+      font-weight: 400;
+    }
+
+    h1 span {
+      color: var(--rose);
+    }
+
+    .heart {
+      font-size: 2rem;
+      margin: 25px 0;
+      animation: heartbeat 2s infinite;
+    }
+
+    .intro {
+      max-width: 610px;
+      margin: auto;
+      color: var(--muted);
+      font-weight: 300;
+      font-size: 1.04rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 34px;
+      padding: 13px 25px;
+      border: 1px solid rgba(229,160,178,.55);
+      border-radius: 999px;
+      color: var(--light);
+      text-decoration: none;
+      font-size: .8rem;
+      letter-spacing: 1px;
+      transition: .3s;
+    }
+
+    .button:hover {
+      background: var(--rose);
+```
